@@ -7,7 +7,7 @@
 ul {
     list-style-type: none;
     display: flex;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 li {
@@ -18,12 +18,27 @@ a {
     text-decoration: none;
     display: block;
     padding: 5px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 a:hover {
-    background-color: black;
-    color: white;
+    /* background-color: black; */
+    color: rgb(0, 0, 0);
 }
 
+.logo {
+    width: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+}
+
+nav {
+    padding: 5px 10px ;
+}
 
