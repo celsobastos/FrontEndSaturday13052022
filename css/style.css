@@ -1,0 +1,29 @@
+/* Adicione os seus comentários aqui  */
+
+* {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    background-color: blue;
+}
+
+li {
+    padding: 1px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    background-color: aqua;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+
