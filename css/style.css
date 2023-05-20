@@ -1,44 +1,59 @@
-/* Adicione os seus comentários aqui  */
+:root {
+    --primary: #7AB730;
+    --secundary: #deff59;
+    --light: #f3f3f3;
+    --dark: #212121;
+}
+
+html {
+    font-size: 20px;
+}
 
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
-ul {
-    list-style-type: none;
+body {
+    background-color: var(--light);
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
     display: flex;
-    /* background-color: blue; */
+    box-shadow: 0 0.1rem 0.2rem #000000;
 }
 
-li {
-    padding: 1px;
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+.navbar-logo {
+    margin-left: 3rem;
+    margin-right: 1rem;
+    background-color: #7AB730;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    color: var(--dark);
+}
+
+.navbar-nav .nav-item > .navbar-link  {
+    color: var(--dark);
+    margin-left: 30px;
+    padding: 30px 0;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+
+.navbar-nav .nav-item > .navbar-link:hover {
+    color: var(--primary);
 }
 
 a {
     text-decoration: none;
-    display: block;
-    padding: 5px;
-    /* background-color: aqua; */
-}
-
-a:hover {
-    /* background-color: black; */
-    color: rgb(0, 0, 0);
-}
-
-.logo {
-    width: 30px;
-}
-
-img {
-    width: 100%;
-}
-
-.menu {
-    display: flex;
-}
-
-nav {
-    padding: 5px 10px ;
 }
 
