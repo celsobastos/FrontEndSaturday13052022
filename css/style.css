@@ -72,14 +72,12 @@ body {
     background-color: var(--primary);
 }
 
-.navbar-nav .nav-item > .navbar-link.nav-contato:hover {
-    /* padding: 3rem; */
-    color: var(--light);
-    /* background-color: var(--dark); */
-}
-
 .navbar-nav .nav-item > .navbar-link:hover {
     color: var(--primary);
+}
+
+.navbar-nav .nav-item > .navbar-link.nav-contato:hover {
+    color: var(--dark);
 }
 
 a {
@@ -99,3 +97,13 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* .icon-arrow::after {
+    content: "test";
+    border: 1px solid #000000;
+}
+.icon-arrow:hover::after {
+    border: 2px red solid;
+} */
+
+
