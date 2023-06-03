@@ -116,7 +116,7 @@ a {
     display: flex;
 }
 .pet-shop-main {
-    padding-right: 50%;
+    /* padding-right: 50%; */
     color: var(--light);
     text-shadow: 1px 2px 5px #000000;
 }
@@ -144,4 +144,10 @@ a {
     /* -ms-opacity: 0.4;  */
     /* opacity: 0.7; */
     cursor: not-allowed;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-nav {
+        display: none;
+    }
 }
