@@ -25,6 +25,7 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
 .navbar-nav {
@@ -116,7 +117,6 @@ a {
     display: flex;
 }
 .pet-shop-main {
-    /* padding-right: 50%; */
     color: var(--light);
     text-shadow: 1px 2px 5px #000000;
 }
@@ -148,6 +148,19 @@ a {
 
 @media screen and (max-width: 992px) {
     .navbar-nav {
+        display: none;
+    }
+}
+
+.btn-nav {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 992px) {
+    .btn-nav {
         display: none;
     }
 }

@@ -19,3 +19,8 @@
 .icon-shopping::before {
     content: "\f07a";
 }
+
+/* Botão humburger */
+.icon-btn-nav::before {
+    content: "\f0c9";
+}
