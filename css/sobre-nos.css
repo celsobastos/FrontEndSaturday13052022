@@ -1,0 +1,57 @@
+/*
+    Break points
+
+    576px
+    768px
+    992px
+    1200px
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.container-responsive {
+    width: 100%;
+    padding: 0 20px;
+    background-color: rgb(164, 164, 178);
+}
+
+.linha {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+[class^="colunas"] {
+    width: 100%;
+    border: 1px solid #000000;
+}
+
+@media screen and (min-width: 768px) {
+    .colunas-md-1 {
+        width: 50%;
+        border: 1px solid #000000;
+    }
+    .colunas-md-2 {
+        width: 25%;
+        border: 1px solid #000000;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .colunas-lg {
+        width: 25%;
+        border: 1px solid #000000;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* sobrescreve bootstrap */
+.meu-btn {
+    background-color: blueviolet;
+    /* border-radius: 0px; */
+}
