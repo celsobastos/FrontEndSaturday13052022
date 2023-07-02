@@ -148,6 +148,15 @@ a {
 
 @media screen and (max-width: 992px) {
     .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: var(--primary);
+        top: 50px;
+        width: 100%;
+    }
+
+    .navbar-nav.display {
         display: none;
     }
 }
