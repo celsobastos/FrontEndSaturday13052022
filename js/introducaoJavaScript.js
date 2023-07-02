@@ -115,8 +115,6 @@ let olaMundo = function() {
     return 'Boas Compras';
 }
 
-
-
 let calculoCompra = function (compra, callback) {
 
     let total = 0;
@@ -124,12 +122,12 @@ let calculoCompra = function (compra, callback) {
         total = total + item;
     });
 
-    return callback() + ' > ' +  total;
+    return callback(total);
 }
 
 
-let result = calculoCompra([5,8,9,50], function() {
-    return 'Boas Compras';
+let result = calculoCompra([5,8,9,50], function(total) {
+    return 'Boas Compras' + total;
 });
 console.log(result);
 

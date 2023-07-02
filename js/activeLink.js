@@ -15,6 +15,7 @@ navBar.forEach(function(element){
     let result = pattern.test(text);
     if(result === true) {
         element.classList.add('active');
+        element.style.backgroundColor = "#999999";
     }
 });
 navBar.forEach(function(element){
